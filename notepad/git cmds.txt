@@ -1,0 +1,112 @@
+git init
+
+git add --a   - add to stage
+
+git status 
+
+git commit -m "Message" -- add .git to commit
+
+git diff 
+
+git diff --staged
+
+git commit -a -m "Message" -- direct commit without staging 
+
+git log
+%**************************************%
+git rm -rf - remove full .git from the dir
+
+git rm <filename> - remove the file 
+
+git mv <filename> <renamefilename>
+
+%**************************************%
+Git Skipping
+git rm --cached <filename> for untrack the file 
+%**************************************%
+
+%**************************************%
+Git Log: Viewing & Changing Commits
+
+Create new Repo.,
+git clone <gitpath> <foldername>
+
+git log -- to see all history 
+
+git log --stat
+
+git log --pretty=oneline
+git log --pretty=short
+git log --pretty=full
+
+git log --since=2.days
+git log --since=2.weeks
+git log --since=2.years
+
+git log --pretty=format: 
+git log --pretty=format: "%h --%ae"
+More :
+https://git-scm.com/docs/git-log
+
+
+if you want to change commit message and update the changes again,
+git log -p -l
+git commit --amend
+press i and write and exit, 
+staging and commit again 
+
+%**************************************%
+
+
+Stage - git add . or git add -a   ->(all)
+Unstage - git restore --staged <filename>
+
+
+change git checkout -- .gitignore
+
+git checkout --f
+
+without changes get back
+do not use much -- it remove staging and remove recent changes 
+
+%**************************************%
+
+git remote
+
+git remote add orgin <link>
+
+git checkout -b <branch>
+
+45) To create new branch
+$ git checkout -b <new-branch-name>
+ 
+46) To switch into different branch
+$ git checkout <branch-name>
+
+47) TO check all the branches in git 
+$ git branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
