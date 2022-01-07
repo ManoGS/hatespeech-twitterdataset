@@ -1,7 +1,0 @@
-this is version 1st.
-
-I would like to push to commit 2,
-
-I would like to push to commit 3,
-
-I would like to push to commit 4,
